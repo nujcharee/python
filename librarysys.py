@@ -1,3 +1,5 @@
+import numpy as np
+
 class Library(object):
     
     """
@@ -189,7 +191,6 @@ class Student():
 
 
 def main():
-    import numpy as np
 
     LibraryBooks = Library(['The Last Battle', 'The Screwtape Letters', 'The Great Divorce'])
     OrignalBooks = Library
